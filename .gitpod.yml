@@ -1,6 +1,6 @@
-image:
-  file: Dockerfile
+image: ghcr.io/joepurdy/flexing:latest
 ports:
 - port: 6080
+  onOpen: open-browser
 tasks:
 - command: "firefox https://duckduckgo.com"
