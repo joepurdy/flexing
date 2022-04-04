@@ -6,7 +6,7 @@ on:
       - main
 
     paths:
-      - ".github/workflows/publish_container.yml"
+      - ".github/workflows/publish-container.yml"
       - "Dockerfile"
 
 env:
