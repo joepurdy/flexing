@@ -4,3 +4,7 @@ all:
 	sudo killall firefox || exit 0
 	firefox https://duckduckgo.com &
 	gp preview --external "$(VNC_URL)"
+
+start:
+	firefox https://duckduckgo.com &
+	gp preview --external "$(VNC_URL)"
