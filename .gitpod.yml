@@ -5,4 +5,4 @@ ports:
 - port: 6080
   onOpen: ignore
 tasks:
-- command: make
+- command: sleep 1 && make
