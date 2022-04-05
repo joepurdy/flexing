@@ -1,6 +1,8 @@
 image: ghcr.io/joepurdy/flexing:latest
 ports:
+- port: 5900
+  onOpen: ignore
 - port: 6080
-  onOpen: open-browser
+  onOpen: ignore
 tasks:
-- command: "firefox https://duckduckgo.com"
+- command: make
